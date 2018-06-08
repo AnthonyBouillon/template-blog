@@ -23,12 +23,16 @@
     padding-top: 5%;
 }
 
+.p {
+    color: #262F4E!important;
+}
+
 #block_1 {
     background-color: beige;
 }
 
 #block_2 {
-    background-color: #ECDBCB;
+    background-color: #262F4E;
 }
 
 .test2 button {
@@ -37,18 +41,128 @@
     border-left: 1px solid black;
     box-shadow: 5px 5px black;
     width: 100%;
-    background-color: white;
+    background-color: ;
+    color: ;
+    border-radius: 50%;
+    min-height: 80px;
+}
+
+.title {
+    color: #D0D0D0;
+    box-shadow: 0px 5px 0px #F5F5DC;
+}
+
+.title-contact {
+    cursor: pointer;
 }
 
 .text-align {
     text-align: right!important;
 }
-nav{
-  background-color: #798C35;
+
+nav {
+    background-color: #798C35;
 }
-nav .container a{
-  color: #F5F5DC;
+
+nav .container-fluid a {
+    color: #F5F5DC;
 }
-footer{
-  background-color: #798C35;
+
+footer {
+    background-color: #798C35;
+}
+
+.register {
+    padding-right: 50px;
+}
+
+
+/* test menu */
+
+div ul li a {
+    height: 40px;
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+div ul li a:hover,
+div ul li a:focus {
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    font-size: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+button {
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.focus:hover,
+.focus:focus {
+    font-size: 25px;
+}
+.focus_title
+{
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.focus_title:hover,.focus_title:focus
+{
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+   font-size: 30px; 
+}
+.img_coe {
+    margin-top: -15px;
+    height: 80px;
+}
+
+
+/* FORMULAIRE */
+.card-body{
+    background: beige;
+}
+.card-header{
+    background: #262F4E;
+    color: beige;
+}
+.form_button{
+    background: #798C35;
+}
+.modal-body{
+    margin: 0;
+    padding: 0;
+}
+.modal-content{
+    background: beige;
+}
+.fenetre_modal{
+    padding-left: 0;
+    padding-right: 0;
+}
+button.close{
+    color: white;
+    padding: 5px;
+}
+button.close:hover{
+    color: red;
 }
