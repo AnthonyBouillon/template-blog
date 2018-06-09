@@ -1,10 +1,10 @@
 /*!
- * Start Bootstrap - Half Slider (https://startbootstrap.com/template-overviews/half-slider)
+ * Start Bootstrap - Half S²der (https://startbootstrap.com/template-overviews/half-slider)
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-half-slider/blob/master/LICENSE)
  */
 
-.carousel-item {
+.image-header {
     height: 65vh;
     min-height: 300px;
     background: no-repeat center center scroll;
@@ -12,39 +12,57 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    position: relative;
+    display: none;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    transition: -webkit-transform .6s ease;
+    transition: transform .6s ease;
+    transition: transform .6s ease, -webkit-transform .6s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    display: block;
+    background-image: url('http://media.chroniclesofelyria.com/concepts/578b19ab8e9048a5b9ca0abe11de1b41.jpg');
 }
 
-.test1 {
+
+/* Bloc d'explication du jeu, contenant le titre et le paragraphe */
+
+#game-explanation-block {
+    background-color: beige;
+}
+
+#title-paragraph-game-explanation {
     padding: 10%;
+    color: #262F4E !important;
 }
 
-.test2 {
+.padding-title {
+    padding-bottom: 5%;
+}
+
+
+/* Block des trois boutons */
+#three-button-big-block {
+    background-color: #262F4E;
+}
+.tree-button-block {
     padding: 3%;
     padding-top: 5%;
 }
 
-.p {
-    color: #262F4E!important;
-}
-
-#block_1 {
-    background-color: beige;
-}
-
-#block_2 {
-    background-color: #262F4E;
-}
-
-.test2 button {
+.tree-button-block button {
     padding: 20px;
     border-top: 1px solid black;
     border-left: 1px solid black;
     box-shadow: 5px 5px black;
     width: 100%;
-    background-color: ;
-    color: ;
     border-radius: 50%;
-    min-height: 80px;
+    min-height: 90px;
 }
 
 .title {
@@ -52,8 +70,10 @@
     box-shadow: 0px 5px 0px #F5F5DC;
 }
 
-.title-contact {
+.element-footer {
     cursor: pointer;
+    padding-top: 20px;
+    color: beige;
 }
 
 .text-align {
@@ -72,8 +92,11 @@ footer {
     background-color: #798C35;
 }
 
-.register {
-    padding-right: 50px;
+
+/* Lien inscription, connexion */
+
+.link-register-login {
+    padding-left: 50px;
 }
 
 
@@ -99,7 +122,6 @@ div ul li a:focus {
 * {
     margin: 0;
     padding: 0;
-
 }
 
 button {
@@ -116,53 +138,99 @@ button:hover {
 .focus:focus {
     font-size: 25px;
 }
-.focus_title
-{
+
+.focus-element {
     -webkit-backface-visibility: hidden;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     transition: all 0.5s;
 }
-.focus_title:hover,.focus_title:focus
-{
+
+.focus-element:hover,
+.focus-element:focus {
     -webkit-backface-visibility: hidden;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     transition: all 0.5s;
-   font-size: 30px; 
+    font-size: 30px;
 }
-.img_coe {
+
+.img-coe-footer {
     margin-top: -15px;
     height: 80px;
 }
 
 
 /* FORMULAIRE */
-.card-body{
+
+.card-body {
     background: beige;
 }
-.card-header{
+
+.card-header {
     background: #262F4E;
     color: beige;
 }
-.form_button{
+
+.form_button {
     background: #798C35;
+    color: beige;
 }
-.modal-body{
+
+.modal-body {
     margin: 0;
     padding: 0;
 }
-.modal-content{
+
+.modal-content {
     background: beige;
 }
-.fenetre_modal{
+
+.window-modal {
     padding-left: 0;
     padding-right: 0;
 }
-button.close{
+
+button.close {
     color: white;
     padding: 5px;
 }
-button.close:hover{
+
+button.close:hover {
     color: red;
+}
+
+
+/* test*/
+
+.slide-fade-enter-active {
+    transition: all 1s ease;
+}
+
+.slide-fade-enter,
+.slide-fade-leave-to
+/* .slide-fade-leave-active below version 2.1.8 */
+
+{
+    transform: translateX(50%);
+    opacity: 0;
+}
+
+
+/* header */
+
+.text-header {
+    background: white;
+    opacity: 0.5;
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+    text-align: center;
 }

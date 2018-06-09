@@ -1,155 +1,175 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link href="css/half-slider.css" rel="stylesheet">
-    <title>Half Slider - Start Bootstrap Template</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" href="http://i251.photobucket.com/albums/gg301/ssjerika/thumbnail_333.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.0/jquery-confirm.min.css" />
+    <link href="css/half-slider.css" rel="stylesheet" />
+    <title>La taverne cCOE</title>
 </head>
 
 <body>
-    <div id="app">
-        <!-- Navigation -->
-        <nav class="navbar navbar-expand-lg  fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">La taverne cCOE</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon">Ici</span>
-        </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active link">
-                            <a class="nav-link" href="#">Accueil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Actualité</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Tchat</a>
-                        </li>
-                        <li class="nav-item register">
-                            <a class="nav-link" href="#">Forum</a>
-                        </li>
-                        <li class="nav-item text-align">
-                            <a class="nav-link " href="#">Inscription</a>
-                        </li>
-                        <li class="nav-item text-align">
-                            <a class="nav-link " href="#">Connexion</a>
-                        </li>
-                    </ul>
-                </div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg  fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">La taverne cCOE</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Actualité</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Tchat</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Forum</a>
+                    </li>
+                    <li class="nav-item link-register-login">
+                        <a class="nav-link text-align" href="">Inscription</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-align" href="">Connexion</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-
-        <header>
-            <!-- Slide One - Set the background image for this slide in the line below -->
-            <div class="carousel-item active" style="background-image: url('http://media.chroniclesofelyria.com/concepts/578b19ab8e9048a5b9ca0abe11de1b41.jpg')">
-                <div class="carousel-caption d-none d-md-block">
-                    <h1>La taverne communautaire de Chronicle of Elyria</h1><span>(Site non officiel)</span><br/><br/>
-                    <p>Afin que les joueurs et les futures joueurs de Chronicle of Elyria puissent se renseigner sur les nouveautés du jeu traduit en français.<br/> Afin qu'ils puissent discuter et partager leurs passions pour <abbr title="Chronicle of Elyria">COE</abbr>.</p>
-                </div>
+        </div>
+    </nav>
+    <!-- / -->
+    <header>
+        <!-- Contenu du block surperposé sur l'image -->
+        <div class="image-header">
+            <!-- Display none petit écran, display bloc moyen-grand écran -->
+            <div class="text-header d-none d-md-block">
+                <h1>La taverne communautaire de Chronicle of Elyria</h1>
+                <span>(Site non officiel)</span>
+                <hr/>
+                <p>
+                    Afin que les joueurs et les futures joueurs de Chronicle of Elyria puissent se renseigner sur les nouveautés du jeu traduit en français.
+                    <br/> Afin qu'ils puissent discuter et partager leurs passions pour <abbr title="Chronicle of Elyria">COE</abbr>.
+                </p>
             </div>
-        </header>
-        <!-- Page Content -->
-        <section>
-            <div id="block_1">
-                <div class="container">
-                    <div class="test1">
-                        <h2 class="text-center p">Chronicle of Elyria, qu'es-ce que c'est ?</h2><br/><br/>
-                        <p class="p">
+        </div>
+    </header>
+    <!-- / -->
+    <!-- Section qui contient deux blocs -->
+    <section>
+        <!-- Bloc numéro 1 contenant l'explication du jeu Chronicle of Elyria -->
+        <div id="game-explanation-block">
+            <div class="container">
+                <div id="title-paragraph-game-explanation">
+                    <!-- Transition VueJS pour le titre, le paragraphe et la source du texte -->
+                    <transition name="slide-fade" appear>
+                        <h2 class="text-center padding-title">Chronicle of Elyria, qu'es-ce que c'est ?</h2>
+                    </transition>
+                    <transition name="slide-fade" appear>
+                        <p>
                             Chroniques d'Elyria est un jeu de rôle mondial persistant en développement, conçu à partir de la base pour résoudre les nombreux problèmes et lacunes des MMORPG conventionnels d'aujourd'hui.<br/><br/> Plutôt que d'être grincheux
                             et répétitif, Chroniques d'Elyria permet aux joueurs de faire des choix significatifs sur le rôle qu'ils jouent dans le monde et, à leur tour, leurs choix ont des conséquences significatives sur ceux qui les entourent. Pas
                             seulement un parc à thème ou un MMO de bac à sable, nous définissons Chroniques d'Elyria comme un MMO événementiel, avec un récit captivant qui est vécu à travers de multiples vies dans le jeu au fur et à mesure que vos personnages
                             naissent, vieillissent et meurent.<br/><br/> Avec un écosystème fonctionnel, une économie fermée avec des ressources limitées et un système politique qui permet aux joueurs de s'engager dans la danse des dynasties, nous pensons
                             que Chroniques d'Elyria est le jeu que les joueurs de MMO attendent depuis longtemps - un jeu dans lequel leurs choix et leur présence comptent dans le monde.
-                            <blockquote class="p">
-                                <small>- Texte provenant du site officiel du jeu :  <cite title="Site officiel du jeux vidéo COE"><a href="https://chroniclesofelyria.com/">Chronicle of Elyria</a></cite></small><br/>
-                                <small>- Traduit en français avec le traducteur <cite title="Traducteur multi-langue"><a href="https://www.DeepL.com/Translator">DEEPL</a></cite></small>
-                            </blockquote>
                         </p>
-                    </div>
+                    </transition>
+                    <transition name="slide-fade" appear>
+                        <blockquote>
+                            <small>- Texte provenant du site officiel du jeu : <cite title="Site officiel du jeux vidéo COE"><a href="https://chroniclesofelyria.com/">Chronicle of Elyria</a></cite></small><br/>
+                            <small>- Traduit en français avec le traducteur <cite title="Traducteur multi-langue"><a href="https://www.DeepL.com/Translator">DEEPL</a></cite></small>
+                        </blockquote>
+                    </transition>
                 </div>
             </div>
-            <div id="block_2">
-                <div class="container test2">
-                    <h2 class="text-center title">Entrez dans la tarverne</h2>
-                    <br/>
-                    <br/>
+        </div>
+        <!-- / -->
+        <!-- Bloc numéro 2 contenant le titre et les trois boutons -->
+        <div id="three-button-big-block">
+            <div class="container tree-button-block">
+                <h2 class="text-center title">Entrez dans la taverne</h2>
+                <br/>
+                <br/>
+                <transition name="bounce" appear>
                     <div class="row">
                         <div class="col sm-4">
-                            <button type="button" class="focus btn-lg">Direction les actualités</button>
+                            <a href=""><button type="button" class="focus btn-lg">Direction les actualités</button></a>
                         </div>
                         <div class="col sm-4">
-                            <button type="button" class="focus  btn-lg">Direction le tchat</button>
+                            <a href=""><button type="button" class="focus btn-lg">Direction le tchat</button></a>
                         </div>
                         <div class="col sm-4">
-                            <button type="button" class="focus btn-lg">Direction le petit forum</button>
+                            <a href=""><button type="button" class="focus btn-lg">Direction le petit forum</button></a>
                         </div>
                     </div>
-                </div>
-
-                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                     
-                            <div class="col-sm-6 col-md-12 fenetre_modal">
-                                <div class="card border-info text-center">
-                                    <div class="card-header">
-                                        Envoyez-moi un message  
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" size="32x32">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                        <div class="card-body">   
-                                            <img src="https://cdn.chroniclesofelyria.com/images/web_v3/2017/Featured_Media/thumbnails/Chronicles-of-Elyria+-+Destructive+magic_thumb.jpg" class="img-fluid">
-                                            <h4 class="text-center">Et la magie opérera</h4>
-                                            <form class="form-signin">
-                                                <input type="text" class="form-control mb-2" placeholder="Pseudo" required autofocus>
-                                                <input type="text" class="form-control mb-2" placeholder="Adresse e-mail" required>
-                                                <input type="text" class="form-control mb-2" placeholder="Sujet de votre demande" required>
-                                                <textarea type="text" class="form-control mb-2" placeholder="Ecrivez votre message" required></textarea>
-                                                <button class="btn btn-lg form_button btn-block mb-1" type="submit">Valider</button>
-                                            </form>
-                                        </div>
-                                </div>
+                </transition>
+            </div>
+        </div>
+        <!-- / -->
+        <!-- Fenêtre modal, formulaire de contact -->
+        <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="col-sm-6 col-md-12 window-modal">
+                        <div class="card border-info text-center">
+                            <div class="card-header">
+                                Envoyez-moi un message
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close" size="32x32">
+                                        <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="card-body">
+                                <img src="https://cdn.chroniclesofelyria.com/images/web_v3/2017/Featured_Media/thumbnails/Chronicles-of-Elyria+-+Destructive+magic_thumb.jpg" class="img-fluid" />
+                                <h4 class="text-center">Et la magie opérera</h4>
+                                <form onsubmit="return false">
+                                    <!-- mb-2 correspond aux marge top et bot de chaque input -->
+                                    <input type="text" class="form-control mb-2" placeholder="Pseudo" required autofocus />
+                                    <input type="text" class="form-control mb-2" placeholder="Adresse e-mail" required />
+                                    <input type="text" class="form-control mb-2" placeholder="Sujet de votre demande" required />
+                                    <textarea type="text" class="form-control mb-2" placeholder="Ecrivez votre message" required></textarea>
+                                    <button class="btn btn-lg form_button btn-block mb-1" type="submit" id="submit-contact" v-on:click="submit">Valider</button>
+                                </form>
                             </div>
                         </div>
-        </section>
-        <!-- Footer -->
-        <footer>
-            <div class="container-fluid">
-                <div class="row" id="example-3">
-                    <div class="col-md-10 ">
-                        <br/>
-                        <h4 class="text-white title-contact" data-toggle="modal" data-target="#exampleModalCenter"><span class="focus_title">Contactez-moi</span></h4>
-                        <br/>
-                    </div>
-                    <div class="col-md-2 ">
-                        <br/>
-                        <h1 class="text-white ">
-                            <a href="https://chroniclesofelyria.com"><img src="https://chroniclesofelyria.com/Content/Images/COE_Icon_News.png" class="img-fluid img_coe" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="L'image contient un lien vers le site officiel de Chronicle of Elyria." /></a>
-                        </h1>
                     </div>
                 </div>
             </div>
-            <!-- /.container -->
-        </footer>
-
+        </div> 
+        <!-- / -->  
+    </section>
+    <!-- / -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-10 ">
+                    <h4 class="element-footer" data-toggle="modal" data-target="#modal"><span class="focus-element">Contactez-moi</span></h4>
+                </div>
+                <div class="col-md-2">
+                    <div class="element-footer">
+                        <a href="https://chroniclesofelyria.com">
+                            <img src="https://chroniclesofelyria.com/Content/Images/COE_Icon_News.png" class="img-fluid img-coe-footer" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="L'image contient un lien vers le site officiel de Chronicle of Elyria." />
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- Bootstrap core JavaScript -->
-        <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js "></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
-        <script src="script.js "></script>
-
+    </footer>
+    <!-- VueJS, jQuery, popover, Bootstrap, myScript -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.0/jquery-confirm.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="home.js "></script>
 </body>
 
 </html>
